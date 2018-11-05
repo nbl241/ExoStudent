@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace ExoStudent
 {
-    public class GetAge
+    public interface IStudent
     {
-        public int Age(Student s)
-        {
-            return (DateTime.Now.Year - s.DateOfBirth.Year);
-        }
+        int dateOfBirth();
     }
 }
