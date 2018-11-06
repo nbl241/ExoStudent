@@ -21,5 +21,10 @@ namespace ExoStudent
         {
             return (DateTime.Now.Year - DateOfBirth.Year);
         }
+
+        public string GetfullName()
+        {
+            return string.Format("{0} {1}",FirstName, Name);
+        }
     }
 }
