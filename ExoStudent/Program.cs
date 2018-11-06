@@ -17,7 +17,18 @@ namespace ExoStudent
                 DateOfBirth = new DateTime(1986,11,24)
             };
 
-            Console.WriteLine("{0} {1} ans", student.GetfullName(), student.dateOfBirth());
+            var m = (Student.Matiere)1;
+
+            Student.SchoolBook schoolBook = new Student.SchoolBook
+            {
+                BookID = 1,
+                BookTitle = "Clean Code",
+                BookPrice = 180
+            };
+
+            Console.WriteLine("{0} {1} ans, {2}", student.GetfullName(), student.dateOfBirth(), m);
+
+            Console.WriteLine("{0} {1} {2}", schoolBook.BookID, schoolBook.BookTitle, schoolBook);
 
             Console.ReadLine();
         }

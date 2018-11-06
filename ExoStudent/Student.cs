@@ -26,5 +26,20 @@ namespace ExoStudent
         {
             return string.Format("{0} {1}",FirstName, Name);
         }
+
+        public enum Matiere : int
+        {
+            Anglais = 0,
+            Mathematique = 1,
+            Histoire = 2,
+            Physique = 3,
+        }
+
+        public struct SchoolBook
+        {
+            public int BookID;
+            public string BookTitle;
+            public decimal BookPrice;
+        }
     }
 }
