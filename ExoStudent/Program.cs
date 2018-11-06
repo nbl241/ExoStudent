@@ -28,7 +28,7 @@ namespace ExoStudent
 
             Console.WriteLine("{0} {1} ans, {2}", student.GetfullName(), student.dateOfBirth(), m);
 
-            Console.WriteLine("{0} {1} {2}", schoolBook.BookID, schoolBook.BookTitle, schoolBook);
+            Console.WriteLine("{0} {1} {2}", schoolBook.BookID, schoolBook.BookTitle, schoolBook.BookPrice);
 
             Console.ReadLine();
         }

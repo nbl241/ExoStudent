@@ -40,6 +40,11 @@ namespace ExoStudent
             public int BookID;
             public string BookTitle;
             public decimal BookPrice;
+
+            public override string ToString()
+            {
+                return base.ToString();
+            }
         }
     }
 }
